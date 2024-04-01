@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: snow;
+}
+.container{
+    background: thistle;
+    text-align: center;
+    width: 50%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.month{
+    background: palevioletred;
+    color: wheat;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    padding: 20px;
+}
+.day{
+    font-size: 30px;
+    color: rebeccapurple;
+}
+.date{
+    font-size: 100px;
+    margin: 0;
+    font-weight: bolder;
+}
+.year{
+    font-size: 30px;
+    margin: 20px 0;
+    color: purple;
+    font-weight: 600;
+}
